@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satvik Wallpaper & Ringtones - Beautiful Sanatan Devotional App</title>
+    <meta name="description" content="Download Satvik Wallpaper & Ringtones. Experience high-quality HD Sanatan Hindu wallpapers of Shiva, Krishna, Ganesha, and divine ringtones on your smartphone.">
+    <meta name="keywords" content="Satvik Wallpaper, Sanatan Wallpaper, Hindu Wallpaper, God Ringtones, Shiva Wallpaper, Krishna Wallpaper, Spiritual App">
+    <meta name="author" content="Satvik App Studio">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Satvik Wallpaper & Ringtones - Beautiful Sanatan Devotional App">
+    <meta property="og:description" content="Experience high-quality HD Sanatan Hindu wallpapers of Shiva, Krishna, Ganesha, and divine ringtones on your smartphone.">
+    <meta property="og:image" content="app_logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Spiritual Particle Effect -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo-area" id="nav-logo">
+                <img src="app_logo.png" alt="Satvik Wallpaper Logo" class="nav-logo-img">
+                <span class="nav-brand">Satvik</span>
+            </a>
+            <div class="nav-links">
+                <a href="#download" class="btn btn-secondary nav-btn" id="nav-download-btn">Download Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-spiritual">✨ Connect With The Divine</div>
+                    <h1 class="hero-title">Bring the Sacred Beauty of <span class="highlight">Sanatan Dharma</span> to Your Screen</h1>
+                    <p class="hero-description">
+                        Adorn your phone with high-quality spiritual wallpapers, divine chanting ringtones, and serene mantras. Daily handpicked satvik collections that inspire peace, strength, and devotion.
+                    </p>
+                    <div class="hero-actions" id="download">
+                        <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" class="btn-play-store" id="hero-play-store-btn">
+                            <svg viewBox="0 0 24 24" width="24" height="24" class="play-icon">
+                                <path fill="currentColor" d="M3,5.27V18.73c0,0.89,0.96,1.45,1.74,1L18.5,13.06a1.14,1.14,0,0,0,0-2L4.74,4.28C3.96,3.82,3,4.38,3,5.27Z"/>
+                            </svg>
+                            <div class="play-btn-text">
+                                <span class="small-text">GET IT ON</span>
+                                <span class="large-text">Google Play</span>
+                            </div>
+                        </a>
+                        <div class="app-store-coming-soon">
+                            <span class="coming-soon-badge">iOS App Coming Soon</span>
+                        </div>
+                    </div>
+                    <!-- Quick Stats -->
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">50K+</span>
+                            <span class="stat-lbl">Downloads</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">4.8★</span>
+                            <span class="stat-lbl">User Rating</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">1000+</span>
+                            <span class="stat-lbl">HD Wallpapers</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-notch"></div>
+                        <div class="phone-screen">
+                            <div class="screen-header">
+                                <img src="app_logo.png" alt="App Logo" class="screen-logo">
+                                <span class="screen-title">Satvik Devotion</span>
+                            </div>
+                            <div class="screen-carousel">
+                                <img src="shiva_wallpaper.png" alt="Shiva Wallpaper Preview" class="screen-img active" id="carousel-img-1">
+                                <img src="krishna_wallpaper.png" alt="Krishna Wallpaper Preview" class="screen-img" id="carousel-img-2">
+                                <img src="ganesha_wallpaper.png" alt="Ganesha Wallpaper Preview" class="screen-img" id="carousel-img-3">
+                            </div>
+                            <div class="screen-footer">
+                                <span class="footer-dots">
+                                    <span class="dot active" data-slide="1"></span>
+                                    <span class="dot" data-slide="2"></span>
+                                    <span class="dot" data-slide="3"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand-info">
+                <img src="app_logo.png" alt="Satvik App Studio Logo" class="footer-logo">
+                <div class="brand-text">
+                    <span class="footer-brand-name">Satvik Wallpaper</span>
+                    <p class="footer-moto">Connecting technology with spiritual heritage, spreading the sacred tranquility of Sanatan Dharma.</p>
+                </div>
+            </div>
+            
+            <div class="footer-nav">
+                <h4>Legal & Support</h4>
+                <div class="footer-links">
+                    <button class="footer-link-btn" id="open-about">About Us</button>
+                    <button class="footer-link-btn" id="open-contact">Contact Us</button>
+                    <button class="footer-link-btn" id="open-privacy">Privacy Policy</button>
+                    <button class="footer-link-btn" id="open-terms">Terms & Conditions</button>
+                    <button class="footer-link-btn" id="open-copyright">Copyright Policy</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Satvik App Studio. All Rights Reserved. Made with Devotion in India.</p>
+        </div>
+    </footer>
+
+    <!-- ==================== MODALS / OVERLAYS ==================== -->
+
+    <!-- Backdrop for modals -->
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+
+    <!-- About Us Modal -->
+    <div class="modal-card" id="modal-about" role="dialog" aria-labelledby="about-title">
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+        <h2 id="about-title" class="modal-header-title">About Us</h2>
+        <div class="modal-body-content">
+            <p>Welcome to <strong>Satvik Wallpaper</strong>, a digital sanctuary created by Satvik App Studio to help Sanatani devotees keep their spiritual consciousness active throughout the day.</p>
+            <p>In today's fast-paced digital world, our smartphones are the most looked-at screens. We believe that what you look at sets your mood and shapes your energy. By decorating your home screen with elegant, artistic images of deities, mandalas, and divine symbols, we aim to bring moments of peace, centering, and divine connection to your busy day.</p>
+            <h3>Our Mission</h3>
+            <p>To preserve, celebrate, and present our ancient Vedic culture in a modern, high-quality digital format. We do not just curate standard photographs; we design and partner with talented artists to create high-definition, aesthetically rich digital representations of gods, goddesses, and sacred temple iconography.</p>
+            <h3>Our Offerings</h3>
+            <ul>
+                <li><strong>Satvik Wallpapers:</strong> Optimized for high-resolution displays, crafted using harmonious spiritual color palettes.</li>
+                <li><strong>Divine Ringtones:</strong> Calm, peaceful frequencies including flute notes, natural sounds, Vedic stotram recitations, and holy bells.</li>
+                <li><strong>Clean Experience:</strong> No intrusive ads, easy-to-use search, and instant set-up for customized home screens.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contact Us Modal -->
+    <div class="modal-card" id="modal-contact" role="dialog" aria-labelledby="contact-title">
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+        <h2 id="contact-title" class="modal-header-title">Contact Us</h2>
+        <div class="modal-body-content">
+            <p>Have suggestions, artwork submissions, copyright requests, or need technical help? Fill in the form below and our Satvik support team will get back to you within 24 hours.</p>
+            
+            <form id="contact-form" class="contact-form-layout">
+                <div class="form-group">
+                    <label for="contact-name">Your Full Name</label>
+                    <input type="text" id="contact-name" name="name" required placeholder="e.g. Aarav Sharma" class="form-input">
+                </div>
+                <div class="form-group">
+                    <label for="contact-email">Email Address</label>
+                    <input type="email" id="contact-email" name="email" required placeholder="e.g. aarav@example.com" class="form-input">
+                </div>
+                <div class="form-group">
+                    <label for="contact-msg">Message / Suggestion</label>
+                    <textarea id="contact-msg" name="message" required rows="4" placeholder="How can we help you?" class="form-input"></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary submit-btn" id="contact-submit-btn">Send Message</button>
+            </form>
+            <div id="contact-success" class="form-success-msg hidden">
+                <svg viewBox="0 0 24 24" width="48" height="48" class="success-icon">
+                    <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+                <p>Hari Om! Your message has been sent successfully. We will connect with you soon.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Privacy Policy Modal -->
+    <div class="modal-card" id="modal-privacy" role="dialog" aria-labelledby="privacy-title">
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+        <h2 id="privacy-title" class="modal-header-title">Privacy Policy</h2>
+        <div class="modal-body-content">
+            <p>Last updated: June 9, 2026</p>
+            <p>At Satvik Wallpaper, your privacy is our supreme priority. We believe in transparency and absolute data safety.</p>
+            <h3>1. Data We Collect</h3>
+            <p>Our app does not require creating an account or providing personal identification info like phone numbers, address, or physical coordinates. We collect anonymous system data (such as app crash logs, device model, and OS version) to improve performance and quality.</p>
+            <h3>2. Device Permissions</h3>
+            <ul>
+                <li><strong>Storage Permission (Optional):</strong> Required only if you want to download wallpapers directly to your phone's local gallery.</li>
+                <li><strong>Write Settings (Optional):</strong> Required to set ringtones directly from inside the app interface.</li>
+            </ul>
+            <h3>3. Third Party Services</h3>
+            <p>We use Google Play Services for standard analytics and crash logging. These platforms process data under their respective policies. We do not sell or trade any user metadata.</p>
+            <h3>4. Children's Privacy</h3>
+            <p>Our content is pure, peaceful, and family-friendly. We do not collect or request data from children under the age of 13.</p>
+        </div>
+    </div>
+
+    <!-- Terms & Conditions Modal -->
+    <div class="modal-card" id="modal-terms" role="dialog" aria-labelledby="terms-title">
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+        <h2 id="terms-title" class="modal-header-title">Terms & Conditions</h2>
+        <div class="modal-body-content">
+            <p>Last updated: June 9, 2026</p>
+            <p>By downloading or using the Satvik Wallpaper application, these terms automatically apply to you. Please read them carefully.</p>
+            <h3>1. Personal & Non-Commercial Use Only</h3>
+            <p>All spiritual artwork, custom-compiled wallpapers, and ringtones provided in this app are for personal, spiritual, and non-commercial customization of your device. You are not permitted to resell, repackage, or distribute our content in secondary commercial apps.</p>
+            <h3>2. Intellectual Property Rights</h3>
+            <p>The code, brand logo, UI layouts, and uniquely synthesized audio compositions are properties of Satvik App Studio. User-submitted arts remain the property of their respective creators, licensed to us for hosting.</p>
+            <h3>3. Limitation of Liability</h3>
+            <p>We strive to keep our app running perfectly, but we are not responsible for minor device settings resets or audio compatibility issues. Content is provided "as is".</p>
+        </div>
+    </div>
+
+    <!-- Copyright Policy Modal -->
+    <div class="modal-card" id="modal-copyright" role="dialog" aria-labelledby="copyright-title">
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+        <h2 id="copyright-title" class="modal-header-title">Copyright Policy</h2>
+        <div class="modal-body-content">
+            <p>At Satvik Wallpaper, we deeply respect creative rights and artist work. We make sure that all the materials we host are either public domain, generic devotional templates, or licensed specifically to us.</p>
+            <h3>Notice of Copyright Infringement (DMCA Claim)</h3>
+            <p>If you are a photographer, graphic designer, or artist, and believe that your copyrighted image or audio has been posted on our app without proper authorization, please email us directly or contact us using our contact form with the following details:</p>
+            <ul>
+                <li>Your full legal name and digital signature.</li>
+                <li>Clear identification of the copyrighted work that has been infringed.</li>
+                <li>Link or screenshot showing the specific wallpaper/ringtone inside the app.</li>
+                <li>Your contact email or phone number.</li>
+            </ul>
+            <p>Upon receiving a valid report, our team will review and take down the content within 12-24 hours. We honor the creative efforts of all digital artists.</p>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal for Fullscreen Wallpaper Previews -->
+    <div class="lightbox-modal" id="lightbox-modal">
+        <button class="lightbox-close-btn" aria-label="Close preview">&times;</button>
+        <div class="lightbox-content">
+            <img src="" alt="Fullscreen Wallpaper" class="lightbox-image" id="lightbox-image">
+            <div class="lightbox-caption" id="lightbox-caption">Divine Wallpaper</div>
+            <a href="" download="" class="btn btn-secondary lightbox-download-btn" id="lightbox-download-link">Download HD Wallpaper</a>
+        </div>
+    </div>
+
+    <!-- Custom Audio Node (Hidden) -->
+    <audio id="global-audio" preload="auto"></audio>
+
+    <script src="app.js"></script>
+</body>
+</html>
